@@ -63,8 +63,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 				<th style="border: 1px solid black;text-align: center;padding: 8px;width:50%;">Rs.  '.$total.'</th>
 			  </tr>*/
 	  
-			$output.='</table>
-			</div>';
+			$output.='</table><footer  style=" border-top: 1px solid black;">
+  <p align="center">Developed by miscos technologies</p>
+</footer></div>';
 			echo $output;
 			//$this->pdf->loadHtml($output);
 			//$this->pdf->render();
